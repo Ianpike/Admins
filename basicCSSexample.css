@@ -1,0 +1,73 @@
+body {
+    background: #2c4762 url('/images/background.png') top repeat-x;
+        
+}
+
+#container {
+    width: 900px;
+	margin: auto;
+	padding: 0 30px;
+}
+
+#header {
+    width: 900px!important;
+	-webkit-font-smoothing: antialiased;
+	height: 71px;
+	margin: auto;
+	position: relative;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: -moz-none;
+	-o-user-select: none;
+	user-select: none;
+}
+
+#tab_outter_container {
+    position: absolute;
+	top: 0;
+	right: 0;
+	margin: 2px 20px 0 0;
+	width: 645px;
+}
+
+#logo {
+    margin: 15px 13px 0 15px;
+	float: left;
+    overflow: hidden;
+    width: 187px;
+    height: 40px;
+}
+
+#logo a {
+   display: block;
+   overflow: hidden;
+   text-indent: -999em;
+   height: 100%;
+   background-image: url('/images/dashboard_logo.png');
+   background-repeat: no-repeat;
+}
+
+#home_button a {
+    background-position: 0 0;
+}
+
+.tab_bar {
+    float: right;
+	padding: 15px 0 0 0;
+}
+
+.tab.selected, #header  .tab.selected>a {
+    color: #fff;
+}
+
+.tab.iconic {
+    padding: 0 9px;
+}
+
+.iconic>a {
+    background-image: url('/images/navbar_sprite.png');
+	background-size: 175px 36px;
+	background-repeat: no-repeat;
+	cursor: pointer;
+	width: 38px;
+}
